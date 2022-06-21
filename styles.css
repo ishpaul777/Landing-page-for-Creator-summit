@@ -14,9 +14,37 @@ body {
   overflow-x: hidden;
 }
 
+/* upperNav */
+.upper-nav {
+  position: fixed;
+  width: 100vw;
+  height: 30px;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  background: #272a31;
+  padding-right: 30px;
+  z-index: 2;
+}
+
+.upper-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.upper-menu-item a {
+  color: #fff;
+}
+
+.bi-linkedin,
+.bi-twitter {
+  font-size: 20px !important;
+  color: #fff !important;
+}
+
 /* NAVBAR */
 nav {
-  background: #fff;
   position: fixed;
   width: 100vw;
   height: 70px;
@@ -25,6 +53,10 @@ nav {
   padding: 0 20px;
   align-items: center;
   z-index: 1;
+}
+
+.logo-container {
+  display: none;
 }
 
 .logo {
@@ -81,7 +113,7 @@ nav {
 }
 
 .bi {
-  font-size: 40px;
+  font-size: 45px;
   color: #151515;
 }
 
@@ -495,7 +527,7 @@ nav {
 
 /* about */
 #about-section {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -531,7 +563,7 @@ nav {
 
 .stripes-black {
   position: absolute;
-  right: 20%;
+  right: 0%;
   top: 70%;
   width: 30px;
   height: 30px;
@@ -541,8 +573,8 @@ nav {
 
 .stripes-black-2 {
   position: absolute;
-  left: 20%;
-  top: 10%;
+  left: 10%;
+  top: 30%;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -552,7 +584,7 @@ nav {
 .stripes-orange {
   position: absolute;
   left: 10%;
-  top: 77%;
+  top: 75%;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -561,8 +593,8 @@ nav {
 
 .stripes-orange-2 {
   position: absolute;
-  right: 20%;
-  top: 10%;
+  right: 18%;
+  top: 22%;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -705,9 +737,19 @@ nav {
 /* Desktop Version */
 @media screen and (min-width: 821px) {
   /* navbar */
+  .upper-nav {
+    display: flex;
+  }
+
   nav {
+    background: #fff;
+    top: 30px;
     padding: 0 40px;
     justify-content: space-around;
+  }
+
+  .logo-container {
+    display: block;
   }
 
   .logo {

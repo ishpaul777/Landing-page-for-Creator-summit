@@ -15,12 +15,10 @@ and name used is for the purpose of Placeholding. Website layout and design belo
 - JavaScript
 
 ## Live Demo
-
-[Live Demo Link](https://ishpaul777.github.io/Landing-page-for-Dev-)
+Here is how it looks [live](https://ishpaul777.github.io/Landing-page-for-Dev-summit/).
 
 ## Loom Video
-
-[Loom Video Link](https://www.loom.com/share/89e7cef7a9cc4eaaaf2be69a8523f9c8)
+I have presented the project in a [Loom Video](https://www.loom.com/share/89e7cef7a9cc4eaaaf2be69a8523f9c8).
 
 ## Getting Started
 
@@ -40,6 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 - [@github](https://github.com/ishpaul777)
 - [@twitter](https://twitter.com/ishpaul777)
+- [@Linkedin](https://www.linkedin.com/in/ishpaul-singh-264590226/)
 
 ## 🤝 Contributing
 
