@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -256,7 +256,7 @@ nav {
 }
 
 .headline {
-  font-size: 2.7em;
+  font-size: 3em;
   font-weight: 750;
   margin-bottom: 20px;
   color: #272a31;
@@ -795,7 +795,7 @@ nav {
   }
 
   .headline {
-    font-size: 4em;
+    font-size: 6em;
   }
 
   .event-info {
