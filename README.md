@@ -36,9 +36,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Ishpaul Singh**
 
-- [@github](https://github.com/ishpaul777)
-- [@twitter](https://twitter.com/ishpaul777)
-- [@Linkedin](https://www.linkedin.com/in/ishpaul-singh-264590226/)
+- Github - [@ishpaul777](https://github.com/ishpaul777)
+- Twitter - [@ishpaul777](https://twitter.com/ishpaul777)
+- Linkedin - [@ishpaul777](https://www.linkedin.com/in/ishpaul-singh-264590226/)
 
 ## 🤝 Contributing
 
