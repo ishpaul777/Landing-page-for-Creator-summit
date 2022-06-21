@@ -16,7 +16,7 @@ and name used is for the purpose of Placeholding. Website layout and design belo
 
 ## Live Demo
 
-[Live Demo Link](https://)
+[Live Demo Link](https://ishpaul777.github.io/Landing-page-for-Dev-)
 
 ## Loom Video
 
