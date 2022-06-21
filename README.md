@@ -14,7 +14,7 @@ This is a website buit for the re-opening event of Obelisk Language Center. Obel
 
 ## Live Demo
 
-[Live Demo Link](https://)
+[Live Demo Link](https://ishpaul777.github.io/Landing-page-for-Dev-)
 
 ## Loom Video
 
