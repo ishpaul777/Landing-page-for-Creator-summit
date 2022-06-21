@@ -4,8 +4,10 @@
 
 > This is the capstone project from the first module of Microverse Program.
 
-
-This is a website buit for the re-opening event of Obelisk Language Center. Obelisk Language Center is a language school located in Barquisimeto, Venezuela, more precisely at the 20th Av / 9th and 10th on the second floor of the DaVinci's Commercial Center. This school is currently closed because of the pandemics and it really doesn't have a re-opening date, but lets hope things get better soon and Obelisk can restart operations!
+This is a fictional page built for my portfolio project
+and is build based on an online website for a conference and Any Logos
+and name used is for the purpose of Placeholding. Website layout and design belongs to
+[Cindy Shin](https://www.behance.net/adagio07),and used for educational purposes.
 
 ## Built With
 
@@ -25,11 +27,12 @@ This is a website buit for the re-opening event of Obelisk Language Center. Obel
 To get a local copy up and running follow these simple example steps.
 
 ### Get the repository into your PC.
+
 - Clone this repository using the SSH key or download it as a ZIP from the "Code" tab and extract the files.
 
 ### Usage
-- To use it open the "index.html" file in your local copy of the repository after cloning or downloading.
 
+- To use it open the "index.html" file in your local copy of the repository after cloning or downloading.
 
 ## Authors
 
@@ -37,7 +40,6 @@ To get a local copy up and running follow these simple example steps.
 
 - [@github](https://github.com/ishpaul777)
 - [@twitter](https://twitter.com/ishpaul777)
-
 
 ## 🤝 Contributing
 
