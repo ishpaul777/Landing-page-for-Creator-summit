@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
@@ -13,7 +14,7 @@
 <body>
     <!--Navbar-->
     <header class="upper-nav">
-      <ul class="upper-menu">
+      <ul class="upper-menu d-flex">
         <li class="upper-menu-item"><a href="https://www.linkedin.com/in/ishpaul-singh-264590226/"><i class="bi bi-linkedin"></i></a></li>
         <li class="upper-menu-item"><a href="https://twitter.com/ishpaul777"><i class="bi bi-twitter"></i></a></li>
         <li class="upper-menu-item"><a href="#">English</a></li>
@@ -21,50 +22,49 @@
         <li class="upper-menu-item"><a href="#">Sign out</a></li>
       </ul>
     </header>
-    <nav>
+    <!--Navbar-->
+    <nav class="d-flex">
       <div class="logo-container">
-        <a href="index.html" class="logo">
+        <a href="index.html" class="logo text-black">
           <span class="highlight">Dev</span>Summit<span class="highlight"
             >.</span
           >
         </a>
       </div>
-        <div class="nav-options">
-        <ul class="menu">
-          <li class="menu-item"><a href="about.html">About</a></li>
-          <li class="menu-item"><a href="index.html#program-structure">Program</a></li>
-          <li class="menu-item"><a href="index.html#developers-section">Speakers</a></li>
-          <li class="menu-item"><a href="index.html#partners-section">Partners</a></li>
-          <li class="menu-item"><a href="about.html#logo-info">Copyright</a></li>
-        </ul>
-        <a href='#' class="register-btn">
-          Get Tickets
-        </a>
-       </div>
-        <!--Toggle menu screen-->
-        <i class="bi bi-list" id="toggle-menu"></i>
-        <div class="mobile-menu">
-         <i class="bi bi-x" id="close-btn"></i>
-          <ul class="menu-items">
-            <li class="menu-item"><a href="index.html">About</a></li>
+      <div class="nav-options">
+        <ul class="menu d-flex">
+            <li class="menu-item"><a href="about.html">About</a></li>
             <li class="menu-item"><a href="index.html#program-structure">Program</a></li>
             <li class="menu-item"><a href="index.html#developers-section">Speakers</a></li>
             <li class="menu-item"><a href="index.html#partners-section">Partners</a></li>
             <li class="menu-item"><a href="about.html#logo-info">Copyright</a></li>
-          </ul>
-        </div>
-      </nav>
+        </ul>
+        <a href="#" class="register-btn comp-font td-none text-black"> Get Tickets </a>
+      </div>
+      <!--Toggle menu screen-->
+      <i class="bi bi-list" id="toggle-menu"></i>
+      <div class="mobile-menu">
+        <i class="bi bi-x" id="close-btn"></i>
+        <ul class="menu-items">
+            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="menu-item"><a href="index.html#program-structure">Program</a></li>
+            <li class="menu-item"><a href="index.html#developers-section">Speakers</a></li>
+            <li class="menu-item"><a href="index.html#partners-section">Partners</a></li>
+            <li class="menu-item"><a href="about.html#logo-info">Copyright</a></li>
+        </ul>
+      </div>
+    </nav>
       <!--About Section-->
       <main id="about-section">
-        <div class="about-wrapper">
+        <div class="about-wrapper d-flex">
 
             <div class="bg-shapes about">
-              <div class="bg-shape cross-color about"></div>
-              <div  class="bg-shape stripes-black"></div>
-              <div  class="bg-shape stripes-black-2"></div>
-              <div  class="bg-shape stripes-orange"></div>
-              <div  class="bg-shape stripes-orange-2"></div>
-              <div  class="bg-shape check-circle"></div>
+              <div class="bg-shape cross-color about p-abs"></div>
+              <div  class="bg-shape stripes-black p-abs"></div>
+              <div  class="bg-shape stripes-black-2 p-abs"></div>
+              <div  class="bg-shape stripes-orange p-abs"></div>
+              <div  class="bg-shape stripes-orange-2 p-abs"></div>
+              <div  class="bg-shape check-circle p-abs"></div>
             </div>
             <div class="content">
                 <div class="headings">
@@ -74,18 +74,18 @@
                       Summit 2022<span class="highlight">.</span>
                     </h1>
                     </div>
-                <div class="event-info about">
+                <div class="event-info about comp-font">
                     <p class="about-info">
                       Dev Summit is a gathering of the most interesting people in the
                       field of Software Devlopement. We are bringing developers, tech-comapanies
                       tech-startups, and tech-investors under one roof.
                     </p>
                 </div>
-                <div class="Contact-info about">
-                    <p class="contact-details">
+                <div class="Contact-info about comp-font">
+                    <p class="contact-details comp-font">
                         Please contact us per Email for any further questions about Dev Summit 2022!
                     </p>
-                    <a href="#" class="contact-email">enquiry@devsummit.org <i class="bi bi-chevron-right"></i></a>
+                    <a href="#" class="contact-email comp-font">enquiry@devsummit.org</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
         <h2 class="section-head">
             Dev Summit Logo
           </h2><hr class="heading-border">
-          <p class="copyright-note about"> 
+          <p class="copyright-note about comp-font"> 
             This is a <span class="highlight"> fictional page</span>  built for my portfolio project
             and is build based on an online website for a conference and Any Logos
             and name used is for the purpose of Placeholding. Website layout and design belongs to
@@ -111,31 +111,29 @@
         <h2 class="section-head">
             See the past Dev Summits
           </h2><hr class="heading-border">
-          <p class="gallery-details"> 
+          <p class="gallery-details comp-font"> 
             Takealook at the last Dev Summits which took place in Buenos Aires and in Warsaw.
           </p>
-          <div class="gallery">
+          <div class="gallery d-flex">
             <div class="gallery-image">
                 <img src="./assets/galllery-img-2" alt="img-gallery" class="past-image">
                 <div class="overlay about">
-                  <p class="image-details">2021</p>
+                  <p class="image-details p-abs">2021</p>
                 </div>
             </div>
             <div class="gallery-image">
                 <img src="./assets/galllery-img-1.jpg" alt="img-gallery" class="past-image">
                 <div class="overlay about">
-                  <p class="image-details">2022 March</p>
+                  <p class="image-details p-abs">2022 March</p>
                 </div>
             </div>
           </div>
       </section>
-      <footer class="credits about">
-        <div>
-          <a href="index.html" class="footer-logo about">
-            <span class="highlight">Dev</span>Summit<span class="highlight">.</span>
-          </a>
-        </div>
-        <p class="copyright-note footer"> 
+      <footer class="credits about d-flex">
+        <a href="index.html" class="footer-logo about">
+          <span class="highlight">Dev</span>Summit<span class="highlight">.</span>
+        </a>
+        <p class="copyright-note comp-font">
           <span class="highlight"> &#169; Important! Please read</span>  <br />
           This is a <span class="highlight"> fictional page</span>  built for my portfolio project
           and is build based on an online website for a conference and Any Logos
