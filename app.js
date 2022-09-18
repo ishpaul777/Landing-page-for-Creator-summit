@@ -78,12 +78,12 @@ function adddevelopers(n) {
         <img src="./assets/tiles.svg" class="dev-bg-tiles" alt="">
         <img src='' alt="" class="developer-image">
       </div>
-      <div class="developer-info">
-        <h3 class="developer-name"></h3>
-        <p class="developer-followers">
+      <div class="developer-info d-flex">
+        <h3 class="developer-name comp-font"></h3>
+        <p class="developer-followers comp-font">
           
         </p><hr class="divider">
-        <p class="developer-details">
+        <p class="developer-details comp-font">
         </p>
       </div>`;
     developersSection.innerHTML += developerCard;

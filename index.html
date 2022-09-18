@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="upper-nav">
-      <ul class="upper-menu">
+      <ul class="upper-menu d-flex">
         <li class="upper-menu-item"><a href="https://www.linkedin.com/in/ishpaul-singh-264590226/"><i class="bi bi-linkedin"></i></a></li>
         <li class="upper-menu-item"><a href="https://twitter.com/ishpaul777"><i class="bi bi-twitter"></i></a></li>
         <li class="upper-menu-item"><a href="#">English</a></li>
@@ -23,23 +23,23 @@
       </ul>
     </header>
     <!--Navbar-->
-    <nav>
+    <nav class="d-flex">
       <div class="logo-container">
-        <a href="index.html" class="logo">
+        <a href="index.html" class="logo text-black">
           <span class="highlight">Dev</span>Summit<span class="highlight"
             >.</span
           >
         </a>
       </div>
       <div class="nav-options">
-        <ul class="menu">
+        <ul class="menu d-flex">
             <li class="menu-item"><a href="about.html">About</a></li>
             <li class="menu-item"><a href="index.html#program-structure">Program</a></li>
             <li class="menu-item"><a href="index.html#developers-section">Speakers</a></li>
             <li class="menu-item"><a href="index.html#partners-section">Partners</a></li>
             <li class="menu-item"><a href="about.html#logo-info">Copyright</a></li>
         </ul>
-        <a href="#" class="register-btn"> Get Tickets </a>
+        <a href="#" class="register-btn comp-font td-none text-black"> Get Tickets </a>
       </div>
       <!--Toggle menu screen-->
       <i class="bi bi-list" id="toggle-menu"></i>
@@ -56,47 +56,42 @@
     </nav>
     <!--Hero Section-->
     <main id="hero-section">
-      <div class="bg-image">
+      <div class="bg-image p-abs">
         <img src="./assets/bg-img-hero.jpg" alt="background image" />
       </div>
       <div class="hero-wrapper">
         <div class="bg-shapes">
-          <i class="bi bi-xbox"></i>
+          <i class="bi bi-xbox p-abs"></i>
           <img
             src="./assets/cross-gray.png"
             alt="bg-shape"
-            class="bg-shape cross"
+            class="bg-shape cross2 p-abs"
           />
-          <img
-            src="./assets/cross-gray.png"
-            alt="bg-shape"
-            class="bg-shape cross2"
-          />
-          <div class="bg-shape cross-color"></div>
-          <i class="bi bi-arrow-repeat"></i>
-          <i class="bi bi-globe"></i>
+          <div class="bg-shape cross-color p-abs"></div>
+          <i class="bi bi-arrow-repeat p-abs"></i>
+          <i class="bi bi-globe p-abs"></i>
           <div class="desktop-shapes">
             <i class="bi bi-currency-yen"></i>
             <img src="./assets/tiles.svg" class="bg-tiles" alt="" />
           </div>
         </div>
         <div class="content">
-          <div class="headings">
-            <p class="greetings">"Hello! World"</p>
+          <div class="headings text-black">
+            <p class="greetings comp-font">"Hello! World"</p>
             <h1 class="headline">
               Devloper<br /><span class="highlight">Dev</span>
               Summit<br />2022<span class="highlight">.</span>
             </h1>
           </div>
           <div class="event-info">
-            <p class="info">
+            <p class="info comp-font">
               Dev Summit is a gathering of the most interesting people in the
               field of Software Devlopement. We are bringing developers,
               tech-startups, and tech-investors under one roof.
             </p>
           </div>
           <div class="venue">
-            <h2 class="event-time">24~26(Fri~Sun)-06-2022</h2>
+            <h2 class="event-time text-black">24~26(Fri~Sun)-06-2022</h2>
             <p class="event-location">@ Sky View Hotel, Downtown-Dubai, UAE.</p>
           </div>
         </div>
@@ -106,69 +101,69 @@
     <section id="program-structure">
       <h2 class="section-head">Main Program</h2>
       <hr class="heading-border" />
-      <ul class="activity-cards">
-        <li class="activity">
+      <ul class="activity-cards d-flex">
+        <li class="activity d-flex">
           <i class="bi bi-mic-fill"></i>
-          <h3 class="activity-name">Lecture</h3>
-          <p class="activity-description">
+          <h3 class="activity-name comp-font">Lecture</h3>
+          <p class="activity-description comp-font">
             Listen to the speakers from various countries about the messeges of
             sharing and opening.
           </p>
         </li>
-        <li class="activity">
+        <li class="activity d-flex">
           <i class="bi bi-camera-reels-fill"></i>
-          <h3 class="activity-name">CC Exhibition</h3>
-          <p class="activity-description">
+          <h3 class="activity-name comp-font">CC Exhibition</h3>
+          <p class="activity-description comp-font">
             Appreciate various creations applying CC license of artists,
             organized from Art Center Nabi.
           </p>
         </li>
-        <li class="activity">
+        <li class="activity d-flex">
           <i class="bi bi-chat-left-text-fill"></i>
-          <h3 class="activity-name">Forum</h3>
-          <p class="activity-description">
+          <h3 class="activity-name comp-font">Forum</h3>
+          <p class="activity-description comp-font">
             Have the time to share your thoughts and opinions with experts for
             each topic.
           </p>
         </li>
-        <li class="activity">
+        <li class="activity d-flex">
           <i class="bi bi-person-video3"></i>
-          <h3 class="activity-name">Workshop</h3>
-          <p class="activity-description">
+          <h3 class="activity-name comp-font">Workshop</h3>
+          <p class="activity-description comp-font">
             Try creating your own work using open source license rather than
             just watching at it.
           </p>
         </li>
-        <li class="activity">
+        <li class="activity d-flex">
           <i class="bi bi-person-plus-fill"></i>
-          <h3 class="activity-name">Networking</h3>
-          <p class="activity-description">
+          <h3 class="activity-name comp-font">Networking</h3>
+          <p class="activity-description comp-font">
             Try creating your own work using open source license rather than
             just watching at it.
           </p>
         </li>
       </ul>
-      <a href="#" class="schedule-info"> SEE THE WHOLE PROGRAM </a>
-      <button type="button" class="cta-join">Join the Nas Summit 2022</button>
+      <a href="#" class="schedule-info comp-font"> SEE THE WHOLE PROGRAM </a>
+      <button type="button" class="cta-join comp-font">Join the Dev Summit 2022</button>
     </section>
     <!--Dev Sections-->
     <section id="developers-section">
       <h2 class="section-head">Featured developers</h2>
       <hr class="heading-border" />
-      <div class="developers">
+      <div class="developers d-flex">
         <!--developerS SECION-->
       </div>
 
       <a href="#developers-section" class="show-more-less"
-        ><span id="more-less">More </span
+        ><span id="more-less" class="text-black">More </span
         ><i id="chevron" class="bi bi-arrow-down-circle-fill"></i
       ></a>
     </section>
     <!--PARTNERS Sections-->
-    <section id="partners-section">
+    <section id="partners-section" class="d-flex">
       <h2 class="section-head">Featured Sponsors</h2>
       <hr class="heading-border" />
-      <div class="partner-logos">
+      <div class="partner-logos d-flex">
         <img
           class="partner-logo airbnb"
           src="./assets/airbnb-logo.png"
@@ -202,11 +197,11 @@
       </div>
     </section>
     <!--Footer-->
-    <footer class="credits">
+    <footer class="credits d-flex">
       <a href="index.html" class="footer-logo">
         <span class="highlight">Dev</span>Summit<span class="highlight">.</span>
       </a>
-      <p class="copyright-note">
+      <p class="copyright-note comp-font">
         <span class="highlight"> &#169; Important! Please read</span>  <br />
         This is a <span class="highlight"> fictional page</span>  built for my portfolio project
         and is build based on an online website for a conference and Any Logos
